@@ -10,13 +10,13 @@ package game.dice;
 public class Main {
 
 	/**
+	 * Main Program for DiceGame
+	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		GUI gui = new GUI();
 		Game game = new Game();
-		gui.load();
-		game.playGame(gui);
+		game.playGame();
 
 	}
 

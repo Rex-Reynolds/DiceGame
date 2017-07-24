@@ -20,13 +20,14 @@ public class Dice {
 	 * Rolls a number of dice as specified by the player and add each roll to the
 	 * current linkedList of rolls
 	 */
-	public void roll(int numberofDice) {
+	public LinkedList<Integer> roll(int numberofDice) {
 		dices.clear();
 		for (int i = 0; i < numberofDice; i++) {
 			currentRoll = 1 + (int) (Math.random() * 6);
 			dices.add(currentRoll);
 			System.out.println("Die number " + dices.lastIndexOf(currentRoll) + " Rolled a " + currentRoll);
 		}
+		return dices;
 	}
 
 	/*
