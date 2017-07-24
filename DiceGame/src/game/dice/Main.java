@@ -16,7 +16,7 @@ public class Main {
 		GUI gui = new GUI();
 		Game game = new Game();
 		gui.load();
-		game.playGame();
+		game.playGame(gui);
 
 	}
 
