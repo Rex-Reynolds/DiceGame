@@ -10,3 +10,7 @@ The game is played as follows between 4 players:
 - Once each player has rolled the player who scored the lowest wins. 
 - Repeat for three more rounds in succession so that the next person starts rolling first (at the end each player will have started). 
 After all four rounds have been completed the player with the lowest combined score wins. 
+
+To as standalone, please navigate to the below directory using a terminal and run the below command:
+
+../ProjectLocation/DiceGame/DiceGame java -jar diceGame.jar
